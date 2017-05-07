@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sandwich Maker</title>
+</head>
+<body>
+  <h1>Sandwich Order Form</h1>
+  <form>
+    <fieldset>
+      <legend>Select your options</legend>
+        <fieldset>
+          <legend>Bread</legend>
+          <input type="checkbox" class="bread" name="white_bread">White
+          <input type="checkbox" class="bread" name="wheat_bread">Wheat
+          <input type="checkbox" class="bread" name="honeyOat_bread">Honey Oat
+          <input type="checkbox" class="bread" name="rye_bread">Rye
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Meat</legend>
+          <input type="checkbox" class="meat" name="ham_meat">Ham
+          <input type="checkbox" class="meat" name="turkey_meat">Turkey
+          <input type="checkbox" class="meat" name="roastBeef_meat">Roast Beef
+          <input type="checkbox" class="meat" name="salami_meat">Salami
+          <input type="checkbox" class="meat" name="spam_meat">Spam
+        </fieldset>
+
+        <fieldset>
+          <legend>Cheese</legend>
+          <input type="checkbox" class="cheese" name="american_cheese">American
+          <input type="checkbox" class="cheese" name="cheddar_cheese">Cheddar
+          <input type="checkbox" class="cheese" name="provolone_cheese">Provolone
+          <input type="checkbox" class="cheese" name="swiss_cheese">Swiss
+        </fieldset>
+
+        <fieldset>
+          <legend>Veggies</legend>
+          <input type="checkbox" class="veggie" name="onion_veggie">Onions
+          <input type="checkbox" class="veggie" name="greenPepper_veggie">Green Peppers
+          <input type="checkbox" class="veggie" name="bananaPepper_veggie">Banana Peppers
+          <input type="checkbox" class="veggie" name="lettuce_veggie">Lettuce
+          <input type="checkbox" class="veggie" name="tomato_veggie">Tomatoes
+        </fieldset>
+
+        <fieldset>
+          <legend>Condiments</legend>
+          <input type="checkbox" class="condiments" name="mayo">Mayo
+          <input type="checkbox" class="condiments" name="mustard">Mustard
+          <input type="checkbox" class="condiments" name="ketchup">Ketchup
+          <input type="checkbox" class="condiments" name="hotSauce">Hot Sauce
+          <input type="checkbox" class="condiments" name="horseRadish">Horse Radish
+        </fieldset>
+
+        <button>Submit</button>
+        <h1 id="output"></h1>
+    </fieldset>
+  </form>
+<script type="text/javascript" src="javascripts/bread.js"></script>
+<script type="text/javascript" src="javascripts/cheese.js"></script>
+<script type="text/javascript" src="javascripts/meat.js"></script> 
+<script type="text/javascript" src="javascripts/veggies.js"></script>
+<script type="text/javascript" src="javascripts/condiments.js"></script>
+<script type="text/javascript" src="javascripts/DOMHandler.js"></script>
+</body>
+</html>
